@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfApp8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="310" Width="440">
+    <Grid Background="AliceBlue">
+        <Border CornerRadius="5" BorderBrush="Coral" Background="AliceBlue" BorderThickness="4" Margin="10,0,254.6,172.4">
+            <StackPanel Orientation="Horizontal" >
+                <StackPanel Orientation="Vertical" >
+                    <Button Background="Beige" Width="40">Button</Button>
+                    <Button Background="Beige" Width="40">Button</Button>
+                    <Button Background="Beige" Width="40">Button</Button>
+                    <Button Background="Beige" Width="40">Button</Button>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" >
+                    <Button Background="Beige" Width="40">Button</Button>
+                    <Button Background="Beige" Width="40">Button</Button>
+                    <Button Background="Beige" Width="40">Button</Button>
+                    <Button Background="Beige" Width="40">Button</Button>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" >
+                    <Button Background="Beige" Width="40">Button</Button>
+                    <Button Background="Beige" Width="40">Button</Button>
+                    <Button Background="Beige" Width="40">Button</Button>
+                    <Button Background="Beige" Width="40">Button</Button>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+        <Border CornerRadius="5" BorderBrush="Coral" Background="AliceBlue" BorderThickness="4" Margin="190,0,74,172.4">
+            <StackPanel Orientation="Horizontal" Margin="0,0,-52,-4.4" >
+                <StackPanel Orientation="Vertical" Margin="15,15,0,30" >
+                    <Button Background="Beige" Content="I am a Button" Width="100" Height="27"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="-75,35,0,15" >
+                    <Button Background="Beige" Content="I am a Button" Width="94" Height="29"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+        <Border CornerRadius="5" BorderBrush="Coral" Background="AliceBlue" BorderThickness="4" Margin="9,103,255,69.4">
+            <StackPanel Orientation="Horizontal" Margin="0,0,-4,-4.4" >
+                <StackPanel Orientation="Vertical" Margin="45,30,0,30" >
+                    <Button Background="Beige" Content="I am a Button" Width="100" Height="27"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
